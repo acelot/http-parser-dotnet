@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Update="src/*.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>  
+  </ItemGroup>
+</Project>
